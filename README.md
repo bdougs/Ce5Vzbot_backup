@@ -2,6 +2,7 @@
 After hard reset - update shell command .py https://github.com/th33xitus/kiauh/blob/master/resources/gcode_shell_command.py
 
 autoupdate firmware
+
 cd ~/klipper
 sudo bash update-all.sh
 ~~~~~~~~~~~~~~~~~~~~~~
