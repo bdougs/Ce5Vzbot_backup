@@ -24,6 +24,8 @@ https://github.com/maz0r/klipper_canbus/blob/main/toolhead/ebb36-42_v1.0.md
 	canbus UUID: 6015553193ee, Application: CanBoot
 
 autoupdate firmware command
+
+***disable "off_when_shutdown: True" in moonraker.cfg prior to running updates***
 ~~~~~~~~~~~~~~~~~~~~~
 cd ~/klipper
 sudo bash update-all.sh
