@@ -6,6 +6,7 @@ autoupdate firmware
 cd ~/klipper
 sudo bash update-all.sh
 ~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 sudo service klipper stop
 cd ~/klipper
 git pull
@@ -27,3 +28,4 @@ make
 python3 ~/CanBoot/scripts/flash_can.py -i can0 -f ~/klipper/out/klipper.bin -u c72b107b904d
 
 sudo service klipper start
+~~~~~~~~~~~~~~~~~~~~~~~~~~
