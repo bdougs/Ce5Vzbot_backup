@@ -1,11 +1,12 @@
 # Ce5Vzbot_backup
 After hard reset - update shell command .py https://github.com/th33xitus/kiauh/blob/master/resources/gcode_shell_command.py
 
-autoupdate firmware
+autoupdate firmware command
 ~~~~~~~~~~~~~~~~~~~~~
 cd ~/klipper
 sudo bash update-all.sh
 ~~~~~~~~~~~~~~~~~~~~~~
+autoupdate firmware code
 ~~~~~~~~~~~~~~~~~~~~~~
 sudo service klipper stop
 cd ~/klipper
