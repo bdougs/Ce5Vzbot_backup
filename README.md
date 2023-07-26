@@ -23,6 +23,8 @@ https://github.com/maz0r/klipper_canbus/blob/main/toolhead/ebb36-42_v1.0.md
 	8 MHz clock
 	canbus UUID: 6015553193ee, Application: CanBoot
 
+########### firmware ###########
+
 autoupdate firmware command
 
 ***disable "off_when_shutdown: True" in moonraker.cfg prior to running updates***
