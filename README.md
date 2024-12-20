@@ -52,7 +52,7 @@ make flash KCONFIG_CONFIG=config.rpi
 make clean 
 make menuconfig 
 make 
-python3 ~/CanBoot/scripts/flash_can.py -i can0 -f ~/klipper/out/klipper.bin -u c72b107b904d
+python3 ~/katapult/scripts/flashtool.py -i can0 -u c72b107b904d -f ~/klipper/out/klipper.bin
 
 sudo service klipper start
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
